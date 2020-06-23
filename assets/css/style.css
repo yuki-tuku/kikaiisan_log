@@ -125,12 +125,12 @@ h2 {
 .text {
     margin: 20px 0;
 }
-.next {
+/* .next {
     text-align: right;
     font-size: small;
     margin: 0 10px 10px 0;
     color: gray;
-}
+} */
 .photo {
     margin-top: 30px;
 }
@@ -140,7 +140,7 @@ h2 {
     margin-top: -20px;
 }
 .photos {
-    padding: 50px 30px;
+    padding: 70px 30px;
     display: flex;
     flex-wrap: wrap;
     /* align-items: center; */
