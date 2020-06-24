@@ -7,6 +7,11 @@
     margin-left: 20px;
     font-size: small;
 }
+@media screen and (max-width:780px) {
+    .header {
+        font-size: x-small;
+    }
+}
 .logo {
     width: 30%;
     z-index: 20;
@@ -103,6 +108,11 @@ li:hover {
 .news {
     width: 100%;
 }
+@media screen and (max-width:780px) {
+    .news {
+        height: 300px;
+    }
+}
 .news-container {
     width: 95%;
     height: 180px;
@@ -117,15 +127,30 @@ li:hover {
     border-bottom: 0.5px solid black;
     padding: 15px 0;
 }
-.day {
+.news-day {
     font-size: small;
+}
+@media screen and (max-width:780px) {
+    .news-day {
+        font-size: x-small;
+    }
 }
 .sub {
     font-size: medium;
 }
+@media screen and (max-width:780px) {
+    .sub {
+        font-size: small;
+    }
+}
 .news-text {
     font-size: small;
     text-overflow: ellipsis;
+}
+@media screen and (max-width:780px) {
+    .news-text {
+        font-size: x-small;
+    }
 }
 .area {
     width: 100%;
@@ -187,10 +212,15 @@ li:hover {
 }
 .blog-container {
     width: 100%;
-    height: 420px;
+    height: 500px;
     border: 1px solid black;
     margin-top: -20px;
     margin-bottom: 20px;
+}
+@media screen and (max-width:780px) {
+    .blog-container {
+        height: 300px;
+    }
 }
 .blog-container :last-child {
     margin-bottom: 30px;
@@ -199,6 +229,12 @@ h2 {
     font-size: x-large;
     margin-bottom: 20px;
 }
+@media screen and (max-width:780px) {
+    h2 {
+        font-size: large;
+    }
+}
+
 .textbox {
     margin: 0 40px;
     height: 100px;
@@ -213,11 +249,21 @@ h2 {
 }
 @media screen and (max-width:780px) {
     .tag {
-        font-size: x-small;
+        font-size: xx-small;
     }
+}
+.day {
+    font-size: small;
 }
 .blog-text {
     margin: 20px 0;
+    font-size: medium;
+
+}
+@media screen and (max-width:780px) {
+    .blog-text {
+        font-size: small;
+    }
 }
 /* .next {
     text-align: right;
@@ -229,7 +275,7 @@ h2 {
     margin-top: 30px;
 }
 .photo-container {
-    height: 400px;
+    height: 450px;
     background-color: lightgray;
     margin-top: -20px;
 }
@@ -252,6 +298,7 @@ h2 {
     }
 }
 footer {
+    margin-top: 40px;
     height: 60px;
     width: 90%;
     margin-left: auto;
